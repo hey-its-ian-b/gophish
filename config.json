@@ -4,10 +4,10 @@
 		"use_tls": false,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
-		"trusted_origins": ["gophish-production-2bfe.up.railway.app"]
+		"trusted_origins": ["https://gophish-production-2bfe.up.railway.app"]
 	},
 	"phish_server": {
-		"listen_url": "0.0.0.0:3333",
+		"listen_url": "0.0.0.0:80",
 		"use_tls": false,
 		"cert_path": "example.crt",
 		"key_path": "example.key"
@@ -15,7 +15,7 @@
 	"db_name": "sqlite3",
 	"db_path": "gophish.db",
 	"migrations_prefix": "db/db_",
-	"contact_address": "",
+	"contact_address": "https://github.com/gophish/gophish",
 	"logging": {
 		"filename": "",
 		"level": ""
